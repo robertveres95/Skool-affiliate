@@ -45,8 +45,8 @@ body {
   line-height: 1.65;
   color: var(--text);
   background: var(--bg);
-  /* hely a mobilos sticky CTA-nak */
-  padding-bottom: 88px;
+  /* hely a mobilos sticky CTA-nak (sáv magassága + iOS alsó biztonsági sáv) */
+  padding-bottom: calc(100px + env(safe-area-inset-bottom));
 }
 
 h1, h2, h3 {
@@ -166,6 +166,13 @@ a { color: var(--navy); }
 .lead {
   font-size: 1.0625rem;
   color: var(--muted);
+}
+
+.problem {
+  font-size: 1.0625rem;
+  color: var(--navy-soft);
+  border-left: 3px solid var(--accent);
+  padding-left: 14px;
 }
 
 .highlight {

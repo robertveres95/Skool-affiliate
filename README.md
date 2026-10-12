@@ -24,7 +24,7 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 - Nincs garancia, nincs mesterséges sürgetés (visszaszámláló, „csak ma” stb.).
 - A „Biztosan fogok pénzt keresni?” kérdésre a válasz egyértelműen: **nem garantálható**.
 - A 7 napos próbaidőn túl **semmilyen további feltételt nem állítunk** (ár, lemondás menete stb.). A GYIK a Skool csatlakozási oldalára irányít a pontos feltételekért.
-- A láblécben affiliate közlemény és „nem bevételi ígéret” nyilatkozat szerepel. **Élesítés előtt nézd át**, hogy a szöveg megfelel-e a saját helyzetednek.
+- A láblécben csak egy rövid „nem bevételi ígéret” nyilatkozat szerepel, látható affiliate közlemény nincs.
 
 ---
 
@@ -52,7 +52,7 @@ Tipp: a CSS ID-kat (`hero`, `tanulas`, …) állítsd be a konténer *Advanced �
 ### 2. Szekciók elemei (widgetek)
 
 - **Header:** Heading/Text (logó szöveg) + Button („7 nap ingyen”, kicsi, sötétkék). Belső konténer: row, space-between.
-- **S1 Hero:** Text Editor (eyebrow, nagybetűs) → Heading H1 → Text Editor (alcím) → Text Editor (félkövér: „Nem szükséges előzetes tudás…”) → belső konténer narancs kerettel (7 napos próba kiemelés: 2 Text Editor) → Button (fő CTA).
+- **S1 Hero:** Text Editor (eyebrow, nagybetűs) → Heading H1 → Text Editor (probléma-mondat, bal oldali narancs vonallal) → Text Editor (alcím) → Text Editor (félkövér: „Nem szükséges előzetes tudás…”) → belső konténer narancs kerettel (7 napos próba kiemelés: 2 Text Editor) → Button (fő CTA).
 - **S2 Mit tanulhatsz meg?:** Heading H2 + Text Editor (intro) + belső konténer 3 kártyával. Kártyánként: Icon (vagy emoji szöveg) + Heading H3 + Text Editor. Alternatíva: **Icon Box** widget.
 - **S3 Nem kell egyedül:** Heading H2 + Text Editor + 3× **Icon Box** (ikon balra mobilon, felül desktopon).
 - **S4 Tanulj, fejlődj, építs:** Heading H2 + 3 kártya konténer (Heading H3 + Text Editor), felső 4 px sötétkék border.
@@ -60,7 +60,7 @@ Tipp: a CSS ID-kat (`hero`, `tanulas`, …) állítsd be a konténer *Advanced �
 - **S6 Ismerd meg:** Heading H2 (fehér) + Text Editor + Button.
 - **S7 GYIK:** Heading H2 + **Accordion** (vagy Elementor Pro *Toggle*) widget, 4 elemmel. Alapból minden elem zárva legyen (Accordion → „Default state: collapsed”, ha elérhető).
 - **S8 Záró CTA:** Heading H2 + Button.
-- **Footer:** 2 Text Editor (affiliate közlemény, nem bevételi ígéret).
+- **Footer:** 1 Text Editor (nem bevételi ígéret).
 - **Mobilos sticky CTA (opcionális):** lásd 5. pont.
 
 ### 3. Reszponzív beállítások
@@ -113,7 +113,6 @@ Elementorban a Button widget *Link* mezőjénél: URL beillesztése, „Open in 
 - GYIK: Accordion/Toggle widget.
 - **Mobilos sticky CTA:** Elementor Pro-ban egy külön konténer a lap alján, *Advanced → Motion Effects → Sticky: Bottom*, csak mobilon látható (*Responsive → Hide on Desktop/Tablet*). Egyszerűbb MVP-változat: mindig látszik mobilon. (A `script.js` logikája – rejtés, amíg a hero CTA látszik – opcionális, HTML widgetbe beilleszthető.)
 - Oldal címe és meta leírás (SEO pluginnal vagy a téma beállításaiban) – a szövegek az `index.html` `<head>` részében.
-- A lábléc affiliate közleményének véglegesítése.
 - A 7 napos próbaidő **ellenőrzése** a Skool oldalon élesítés előtt; ha változik, az összes CTA szövegét és a hero kiemelést frissíteni kell.
 
 ### 6. Amit NEM építünk az MVP-be

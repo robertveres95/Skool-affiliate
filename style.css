@@ -349,6 +349,11 @@ a { color: var(--navy); }
 
 .site-footer strong { color: #fff; }
 .site-footer p:last-child { margin-bottom: 0; }
+.site-footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 /* ---------- Mobilos sticky CTA ---------- */
 

@@ -7,7 +7,8 @@
  * - Ha van ID, és a látogató még nem döntött: megjelenik a hozzájárulási sáv.
  *   Döntés előtt a GA4 NEM töltődik be.
  * - Elfogadom → GA4 betölt: oldalmegtekintés + "affiliate_outbound_click" esemény.
- * - Elutasítás → GA4 nem töltődik be; ha korábban betöltött, letiltjuk és töröljük a GA-sütiket.
+ * - Elutasítás → GA4 nem töltődik be; ha korábban betöltött, letiltjuk, töröljük a GA-sütiket,
+ *   és újratöltjük az oldalt, hogy a gtag.js ne maradjon a memóriában.
  * - A döntés a lábléc „Süti-beállítások” gombjával bármikor módosítható.
  * - ?valtopont_test=1 SOHA nem ad hozzájárulást; csak a GA4 DebugView-jelölést kapcsolja be,
  *   ha a látogató már maga elfogadta a mérést.
@@ -176,7 +177,14 @@
         loadGa();
       }
     } else {
+      var wasLoaded = loaded;
       disableGa();
+      // Ha a gtag.js már betöltődött, újratöltjük az oldalt, így a Google-szkript
+      // teljesen kikerül a memóriából, és biztosan nem küld további adatot.
+      if (wasLoaded) {
+        window.location.reload();
+        return;
+      }
     }
     hideBanner();
   }

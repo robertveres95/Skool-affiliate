@@ -414,3 +414,118 @@ a { color: var(--navy); }
   html { scroll-behavior: auto; }
   .sticky-cta, .btn { transition: none; }
 }
+
+/* ==========================================================
+   Lábléc linkek, hozzájárulási sáv, adatkezelési oldal
+   ========================================================== */
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+}
+
+.site-footer a,
+.consent-settings {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer a,
+.site-footer .consent-settings { color: #ffffff; }
+
+.consent-settings {
+  color: var(--navy);
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.consent {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  background: #ffffff;
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -6px 24px rgba(20, 40, 75, 0.12);
+  padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+}
+
+.consent[hidden] { display: none; }
+
+/* amíg a sáv látszik, a mobilos sticky CTA ne kerüljön alá */
+body.has-consent-banner .sticky-cta { display: none; }
+
+.consent-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.consent-title {
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.consent-text {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.consent-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* a két döntési gomb szándékosan teljesen egyforma */
+.consent-btn {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  min-height: 48px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid var(--navy);
+  background: var(--navy);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.consent-btn:hover { background: var(--navy-soft); border-color: var(--navy-soft); }
+
+.consent-btn:focus-visible,
+.consent-settings:focus-visible,
+.consent-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.consent-link {
+  font-size: 0.9375rem;
+  color: var(--navy);
+}
+
+@media (min-width: 640px) {
+  .consent-actions { grid-template-columns: 1fr 1fr; }
+}
+
+/* Adatkezelési tájékoztató oldal */
+.privacy { padding: 40px 0 64px; }
+.privacy h1 { font-size: 1.75rem; }
+.privacy h2 { font-size: 1.25rem; margin-top: 36px; }
+.privacy ul { padding-left: 22px; }
+.privacy li { margin-bottom: 6px; }
+.privacy table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; margin-bottom: 16px; }
+.privacy th, .privacy td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--border); }
+.privacy .table-wrap { overflow-x: auto; }
+.placeholder { background: #fdf0d9; color: #7a4a00; padding: 0 4px; border-radius: 4px; font-weight: 700; }
+.notice { background: var(--bg-alt); border-left: 4px solid var(--accent); padding: 14px 16px; border-radius: 6px; }
+.privacy-back { display: inline-block; margin-bottom: 24px; }

@@ -355,6 +355,27 @@ a { color: var(--navy); }
   text-underline-offset: 3px;
 }
 
+/* Affiliate-tájékoztatás a láblécben: kicsi, de jól olvasható (a lábléc színével 9,15:1 kontraszt) */
+.site-footer .footer-disclosure {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+}
+
+/* Rövid affiliate-közlés a hero CTA alatt (fehér háttéren, a --muted színnel) */
+.cta-note {
+  margin: 10px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 /* ---------- Mobilos sticky CTA ---------- */
 
 .sticky-cta {
@@ -418,4 +439,94 @@ a { color: var(--navy); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .sticky-cta, .btn { transition: none; }
+}
+
+/* ==========================================================
+   Hozzájárulási sáv (analytics.js) és „Süti-beállítások” gomb
+   ========================================================== */
+
+.consent-settings {
+  color: var(--navy);
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.site-footer .consent-settings { color: #ffffff; }
+
+.consent {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  background: #ffffff;
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -6px 24px rgba(20, 40, 75, 0.12);
+  padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
+}
+
+.consent[hidden] { display: none; }
+
+/* amíg a sáv látszik, a mobilos sticky CTA ne kerüljön alá */
+body.has-consent-banner .sticky-cta { display: none; }
+
+.consent-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.consent-title {
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.consent-text {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.consent-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* a két döntési gomb szándékosan teljesen egyforma: az elfogadás nem kap kiemelést */
+.consent-btn {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  min-height: 48px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid var(--navy);
+  background: var(--navy);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.consent-btn:hover { background: var(--navy-soft); border-color: var(--navy-soft); }
+
+.consent-btn:focus-visible,
+.consent-settings:focus-visible,
+.consent-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.consent-link {
+  font-size: 0.9375rem;
+  color: var(--navy);
+}
+
+@media (min-width: 640px) {
+  .consent-actions { grid-template-columns: 1fr 1fr; }
 }

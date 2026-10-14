@@ -15,8 +15,34 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 ├── index.html   # az oldal teljes tartalma, 8 szekció + fejléc/lábléc
 ├── style.css    # mobil-first stílusok, színek CSS változókban (:root)
 ├── script.js    # egyetlen funkció: mobilos sticky CTA mutatása/elrejtése
+├── analytics-config.js  # GA4 mérési azonosító + a végleges tájékoztató címe (privacyUrl)
+├── analytics.js         # hozzájárulási sáv, GA4 (Basic Consent Mode), affiliate_click esemény
+├── tests/
+│   └── analytics.test.js  # automatikus böngészős tesztek (Playwright, helyettesített Google-kérésekkel)
 └── README.md
 ```
+
+## Analitika és hozzájárulás (GA4)
+
+- GA4-tulajdon: „Kattintasmero”, mérési azonosító: `G-0G7W9BEY5S` (`analytics-config.js`).
+- **Az analitika csak akkor aktív, ha az `analytics-config.js`-ben a `privacyUrl` is ki van töltve** a végleges, publikált adatkezelési tájékoztató címével. Amíg üres, nincs sáv, nincs tárolás és nincs Google-kérés.
+- Aktív állapotban: hozzájárulási sáv „Elfogadom” / „Elutasítom” gombbal (egyforma kinézet), később a lábléc „Süti-beállítások” gombjával módosítható.
+- Basic Consent Mode: döntés előtt és elutasítás után a `gtag.js` nem töltődik be. Elfogadás után: `consent default` (minden `denied`) → `consent update` (`analytics_storage: granted`) → `config`. Az `ad_storage`, `ad_user_data`, `ad_personalization` mindig `denied`.
+- Események: a GA4 konfiguráció egyetlen `page_view`-t küld; a Skool affiliate linkekre kattintás `affiliate_click` eseményt küld (`cta_location`, `cta_text`, `ad_variant`, `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`). Az `affiliate_click` nem bizonyít regisztrációt vagy jutalékot.
+- A GA4-be küldött oldal-URL csak a négy `utm_*` paramétert tartalmazza (`fbclid`, `gclid` és minden más elmarad).
+- **A GA4-fiókban kézzel ellenőrizendő** (a kódból nem állítható): Bővített mérés → „Kimenő kattintások” KI és „Oldalváltások böngészőelőzmény alapján” KI, hogy egy Skool-kattintás ne számolódjon duplán.
+- Visszavonáskor a mérés leáll, a kód megkísérli törölni a `_ga`/`_ga_*` sütiket, és újratölti az oldalt. A Google-hoz korábban már elküldött adatokat ez nem törli.
+- Meta Pixel nincs a kódban (külön, későbbi feladat).
+
+## Tesztek
+
+Nincs build lépés és nincs `package.json`. A tesztek a Node beépített tesztfuttatóját és egy már telepített Playwrightot használnak:
+
+```
+NODE_PATH=$(npm root -g) node --test tests/*.test.js
+```
+
+A tesztek a Google-kéréseket helyettesítő szkripttel szimulálják; a valódi GA4-adatgyűjtést a GA4 DebugView-ban kell kézzel ellenőrizni (`?valtopont_test=1`).
 
 ## Kommunikációs alapelvek (tartalmi szabályok)
 
@@ -24,7 +50,7 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 - Nincs garancia, nincs mesterséges sürgetés (visszaszámláló, „csak ma” stb.).
 - A „Biztosan fogok pénzt keresni?” kérdésre a válasz egyértelműen: **nem garantálható**.
 - A 7 napos próbaidőn túl **semmilyen további feltételt nem állítunk** (ár, lemondás menete stb.). A GYIK a Skool csatlakozási oldalára irányít a pontos feltételekért.
-- A láblécben csak egy rövid „nem bevételi ígéret” nyilatkozat szerepel, látható affiliate közlemény nincs.
+- A láblécben egy rövid „nem bevételi ígéret” nyilatkozat és egy rövid affiliate-tájékoztatás szerepel; a hero CTA alatt egy egysoros affiliate-közlés áll. A többi CTA mellett nincs ismétlés – ennek jogi elégségessége még ellenőrizendő.
 
 ---
 
@@ -60,7 +86,7 @@ Tipp: a CSS ID-kat (`hero`, `tanulas`, …) állítsd be a konténer *Advanced �
 - **S6 Ismerd meg:** Heading H2 (fehér) + Text Editor + Button.
 - **S7 GYIK:** Heading H2 + **Accordion** (vagy Elementor Pro *Toggle*) widget, 4 elemmel. Alapból minden elem zárva legyen (Accordion → „Default state: collapsed”, ha elérhető).
 - **S8 Záró CTA:** Heading H2 + Button.
-- **Footer:** 1 Text Editor (nem bevételi ígéret).
+- **Footer:** Text Editor (nem bevételi ígéret) + Text Editor (affiliate-tájékoztatás, 12 px) + kapcsolati e-mail. A hero CTA alá egy kis betűs Text Editor (affiliate-közlés).
 - **Mobilos sticky CTA (opcionális):** lásd 5. pont.
 
 ### 3. Reszponzív beállítások
@@ -123,8 +149,7 @@ Elementorban a Button widget *Link* mezőjénél: URL beillesztése, „Open in 
 - felhasználói regisztráció
 - email automatizáció / feliratkozó űrlap
 - fizetési rendszer
-- analitika, követőkódok, pixelek
-- cookie banner / cookie kezelő rendszer (ha később analitika kerül be, akkor válik szükségessé)
+- pixelek és hirdetési követőkódok (a GA4 és a hozzájárulási sáv azóta bekerült, lásd fent)
 - komplex animációk, parallax, belépő effektek
 - A/B tesztelés
 - ügyfélvélemények, sikersztorik, bevételi számok, visszaszámlálók – amíg nincs valós, ellenőrizhető forrás

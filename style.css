@@ -355,6 +355,27 @@ a { color: var(--navy); }
   text-underline-offset: 3px;
 }
 
+/* Affiliate-tájékoztatás a láblécben: kicsi, de jól olvasható (a lábléc színével 9,15:1 kontraszt) */
+.site-footer .footer-disclosure {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  align-items: center;
+}
+
+/* Rövid affiliate-közlés a hero CTA alatt (fehér háttéren, a --muted színnel) */
+.cta-note {
+  margin: 10px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 /* ---------- Mobilos sticky CTA ---------- */
 
 .sticky-cta {

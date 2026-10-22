@@ -4,38 +4,39 @@
 **Formátum:** faceless, 9:16 függőleges (1080 × 1920), AI voice-over
 **Hossz:** kb. 40 mp (35–45 mp között)
 **Cél:** ATTENTION → IDENTIFICATION → CURIOSITY (nem értékesítés)
-**Fő üzenet:** „Azért kezdtem el ezt, mert nem akartam még 1–2 évet tanulni, mielőtt egyáltalán esélyem lenne pályát váltani.”
+**Fő üzenet:** „Azért kezdtem el, mert nem akartam még éveket várni, mielőtt egyáltalán elindulok egy új irányba.”
 **Visszatérő zárómondat:** ELŐBB KÉSZSÉG, AZTÁN PÉNZ.
 
 ---
 
 ## Tartalmi szabályok (mindegyik videóra)
 
-- A 2–3 hónap **az az ígéret, ami megfogott**, nem eredmény. Mindig így fogalmazz: „azt állította”, „ez fogott meg”.
-- Nem mondjuk, hogy már pénzt keresel. Nem mondjuk, hogy bárki biztosan fog.
-- Nem vagy guru, nem vagy szakértő: valaki vagy, aki most teszteli, működik-e neki.
+- Nem ígérünk sem bevételt, sem időtávot. Nem mondjuk, hogy hány hónap alatt lehet pénzt keresni, és azt sem, hogy bárki biztosan fog.
+- Más személyeket vagy hirdetéseiket nem nevezzük meg, és nem idézzük ellenőrizetlen állításaikat.
+- Személyes, azonosításra alkalmas részletet (munkahely, szakma, egészségi állapot) nem teszünk a videóba.
+- Nem vagy guru, nem vagy szakértő: valaki vagy, aki most tanul, és kipróbálja, mire jut vele.
 - Nincs luxusautó, pénzköteg, kávézós laptop, „havi milliók”.
-- Nincs szomorú „nyomorúságmarketing”. Az alapérzés: *„Elegem van ebből, de nem adom fel. Keresek egy másik utat.”*
+- Nincs szomorú „nyomorúságmarketing”. Az alapérzés: *„Elegem van a toporgásból, de nem adom fel. Keresek egy másik utat.”*
 
 ---
 
-## 1. Teljes voice-over szöveg (~100 szó, ~40 mp)
+## 1. Teljes voice-over szöveg (~90 szó, ~40 mp)
 
 A számokat betűvel írtam, mert így az AI hang biztosan jól mondja ki. A `/` jel rövid, a `//` hosszabb szünetet jelent.
 
 > **[HOOK]**
-> Én nem akartam még egy-két évet tanulni ahhoz, hogy végre szakmát válthassak. //
+> Én nem akartam még éveket várni ahhoz, hogy végre elinduljak egy új irányba. //
 >
 > **[TÖRTÉNET]**
-> Az építőiparban dolgozom. / És egyre jobban elegem van belőle. / Érzem, hogy hosszú távon fizikailag egyre nehezebb. //
-> Minél hamarabb más irányba akartam menni. / De mindenhol azt hallottam, hogy egy új szakmához egy-két év kell. / Ez nagyon elvette a kedvem. //
-> Aztán megláttam Zsolti hirdetését. / Azt állította, hogy napi egy-három óra tanulással két-három hónap alatt eljuthatok oda, hogy elkezdhetek pénzt keresni. / Engem ez fogott meg. //
+> Régóta érzem, hogy a mostani munkám hosszú távon nem nekem való. / Szerettem volna minél hamarabb mást kipróbálni. //
+> De mindenhol azt hallottam, hogy egy új szakmához egy-két év kell. / Ez nagyon elvette a kedvem. //
+> Aztán találtam egy online közösséget, ahol kezdőként, lépésről lépésre lehet digitális készségeket tanulni. / Engem ez fogott meg. //
 >
 > **[FORDULÓPONT]**
-> Ezért csatlakoztam. / De nem akarom elhinni bemondásra. / Lehet, hogy nálam működik, lehet, hogy nem. / Most végigcsinálom a munkám mellett, és megmutatom, mire jutok. //
+> Ezért csatlakoztam. / De nem akarok semmit elhinni bemondásra. / Lehet, hogy nálam működik, lehet, hogy nem. / Most végigcsinálom a munkám mellett, és megmutatom, mire jutok. //
 >
 > **[ZÁRÁS]**
-> Előbb készség, aztán pénz. / Ha te is váltanál, de nem akarsz éveket várni az első lehetőségre, kövesd a kísérletet.
+> Előbb készség, aztán pénz. / Ha te is váltanál, de nem tudod, hol kezdd, kövesd a kísérletet.
 
 ---
 
@@ -48,46 +49,41 @@ A számokat betűvel írtam, mert így az AI hang biztosan jól mondja ki. A `/`
 
 | Idő | VO | B-roll | Kiemelt felirat |
 |---|---|---|---|
-| **0:00–0:04** | „Én nem akartam még egy-két évet tanulni ahhoz, hogy végre szakmát válthassak.” | Közeli: munkáskesztyűs kéz leteszi a szerszámot (kalapács, vakolókanál) egy poros felületre. Az első képkockán már mozgás van, nincs bevezető. | **NEM AKARTAM MÉG 1–2 ÉVET VÁRNI.** |
-| 0:04–0:06 | „Az építőiparban dolgozom.” | Építkezés részlete: téglarakás vagy betonkeverő, kézi kamerával, arc nélkül. | ÉPÍTŐIPAR. |
-| 0:06–0:08 | „És egyre jobban elegem van belőle.” | Poros munkabakancs lassan lép a sárban / állványon. | – |
-| 0:08–0:11 | „Érzem, hogy hosszú távon fizikailag egyre nehezebb.” | Munkanap vége: kesztyű lehúzása, kéz megdörzsöli a derekat vagy a vállat. Nem drámai, csak fáradt. | FIZIKAILAG EGYRE NEHEZEBB. |
-| 0:11–0:13 | „Minél hamarabb más irányba akartam menni.” | Autóban/kisbuszban ülve a műszerfal vagy a szélvédő mögötti naplemente, a kezek a kormányon. Nem luxusautó. | – |
-| 0:13–0:17 | „De mindenhol azt hallottam, hogy egy új szakmához egy-két év kell.” | Telefon kijelzője: görgetés a „szakmaváltás”, „hány év alatt lehet megtanulni” keresési találatokon (homályosítva). | **„1–2 ÉV KELL.”** |
-| 0:17–0:19 | „Ez nagyon elvette a kedvem.” | A telefon képernyővel lefelé az asztalra kerül. Csend, 0,5 mp szünet. | – |
-| 0:19–0:21 | „Aztán megláttam Zsolti hirdetését.” | Este, konyhaasztal: telefonon görgetés, megáll egy hirdetésnél (homályosítva, vagy csak a mozdulat látszik). | – |
-| 0:21–0:26 | „Azt állította, hogy napi egy-három óra tanulással két-három hónap alatt eljuthatok oda, hogy elkezdhetek pénzt keresni.” | Kézzel írt jegyzet egy füzetben: „napi 1–3 óra”, „2–3 hónap?”. A kérdőjelet a kéz írja oda a végén. | **AZ ÍGÉRET:** napi 1–3 óra · 2–3 hónap |
-| 0:26–0:28 | „Engem ez fogott meg.” | Közeli: a toll megáll a kérdőjelnél. | (kisebb betűvel) *ez az, ami megfogott – nem garancia* |
-| **0:28–0:29** | „Ezért csatlakoztam.” | Laptop kinyílik a konyhaasztalon, este, egyszerű lámpafény. | – |
-| 0:29–0:31 | „De nem akarom elhinni bemondásra.” | Képernyőfelvétel a saját tananyag-felületről: modullista görgetése. Más tagok nevét és képét homályosítsd! | **NEM HISZEM EL BEMONDÁSRA.** |
-| 0:31–0:33 | „Lehet, hogy nálam működik, lehet, hogy nem.” | Kéz jegyzetel a laptop mellett, a háttérben a munkaruha a széken. | – |
-| 0:33–0:36 | „Most végigcsinálom a munkám mellett, és megmutatom, mire jutok.” | Falinaptár vagy füzet: az első nap bekarikázva / „1. nap” felírva. | **NYILVÁNOS KÍSÉRLET – 1. RÉSZ** |
-| **0:36–0:38** | „Előbb készség, aztán pénz.” | Lassú kép: hajnal/kora reggel, üres út vagy ablakból kinézés. Nyugodt, nem epikus. | – |
-| 0:38–0:42 | „Ha te is váltanál, de nem akarsz éveket várni az első lehetőségre, kövesd a kísérletet.” | Ugyanaz a kép, finom elsötétítés sötétkékre. | Kövesd a kísérletet → |
-| **0:42–0:44** | (csend, csak a zene halkul) | Sötétkék háttér `#14284b`, középen narancs/arany szöveg `#e39a2d`. | **ELŐBB KÉSZSÉG, AZTÁN PÉNZ.** |
+| **0:00–0:04** | „Én nem akartam még éveket várni ahhoz, hogy végre elinduljak egy új irányba.” | Közeli: egy kéz becsuk egy munkanaplót vagy leteszi a kulcsokat az asztalra. Az első képkockán már mozgás van, nincs bevezető. | **NEM AKARTAM MÉG ÉVEKET VÁRNI.** |
+| 0:04–0:08 | „Régóta érzem, hogy a mostani munkám hosszú távon nem nekem való.” | Munkanap vége: kabát a fogason, táska a széken. Nem drámai, csak fáradt. | – |
+| 0:08–0:11 | „Szerettem volna minél hamarabb mást kipróbálni.” | Autóban vagy buszon ülve kinézés az ablakon, naplemente. Nem luxusautó. | – |
+| 0:11–0:15 | „De mindenhol azt hallottam, hogy egy új szakmához egy-két év kell.” | Telefon kijelzője: görgetés a „szakmaváltás”, „hány év alatt lehet megtanulni” keresési találatokon (homályosítva). | **„1–2 ÉV KELL.”** |
+| 0:15–0:17 | „Ez nagyon elvette a kedvem.” | A telefon képernyővel lefelé az asztalra kerül. Csend, 0,5 mp szünet. | – |
+| 0:17–0:22 | „Aztán találtam egy online közösséget, ahol kezdőként, lépésről lépésre lehet digitális készségeket tanulni.” | Este, konyhaasztal: kézzel írt jegyzet egy füzetben: „digitális készségek?”, „kezdőként?”. A kérdőjelet a kéz írja oda a végén. | **KEZDŐKÉNT, LÉPÉSRŐL LÉPÉSRE?** |
+| 0:22–0:24 | „Engem ez fogott meg.” | Közeli: a toll megáll a kérdőjelnél. | (kisebb betűvel) *ez fogott meg – nem garancia* |
+| **0:24–0:26** | „Ezért csatlakoztam.” | Laptop kinyílik a konyhaasztalon, este, egyszerű lámpafény. | – |
+| 0:26–0:28 | „De nem akarok semmit elhinni bemondásra.” | Képernyőfelvétel a saját tananyag-felületről: modullista görgetése. Más tagok nevét és képét homályosítsd! | **NEM HISZEM EL BEMONDÁSRA.** |
+| 0:28–0:31 | „Lehet, hogy nálam működik, lehet, hogy nem.” | Kéz jegyzetel a laptop mellett. | – |
+| 0:31–0:35 | „Most végigcsinálom a munkám mellett, és megmutatom, mire jutok.” | Falinaptár vagy füzet: az első nap bekarikázva / „1. nap” felírva. | **NYILVÁNOS KÍSÉRLET – 1. RÉSZ** |
+| **0:35–0:37** | „Előbb készség, aztán pénz.” | Lassú kép: hajnal/kora reggel, üres út vagy ablakból kinézés. Nyugodt, nem epikus. | – |
+| 0:37–0:41 | „Ha te is váltanál, de nem tudod, hol kezdd, kövesd a kísérletet.” | Ugyanaz a kép, finom elsötétítés sötétkékre. | Kövesd a kísérletet → |
+| **0:41–0:43** | (csend, csak a zene halkul) | Sötétkék háttér `#14284b`, középen narancs/arany szöveg `#e39a2d`. | **ELŐBB KÉSZSÉG, AZTÁN PÉNZ.** |
 
-A teljes hossz kb. 44 mp, ebből az utolsó 2 mp néma zárókártya. Ha az AI hang gyorsabb, a záróképet nyújtsd 3 mp-re, ne a beszédet lassítsd.
+A teljes hossz kb. 43 mp, ebből az utolsó 2 mp néma zárókártya. Ha az AI hang gyorsabb, a záróképet nyújtsd 3 mp-re, ne a beszédet lassítsd.
 
 ---
 
 ## 3. Képernyőn megjelenő feliratok
 
 ### a) Végig futó feliratozás
-- Szóról szóra, a VO alapján (CapCut / TikTok auto-caption), **utána kézzel javítsd** a magyar ékezeteket és a „Zsolti” nevet.
+- Szóról szóra, a VO alapján (CapCut / TikTok auto-caption), **utána kézzel javítsd** a magyar ékezeteket.
 - Fehér betű, vékony sötét kontúr, a képernyő alsó harmadában, de a platform UI felett (alulról kb. 25%).
 - Egyszerre max. 3–4 szó.
 
 ### b) Kiemelt feliratok (sorrendben)
-1. NEM AKARTAM MÉG 1–2 ÉVET VÁRNI.
-2. ÉPÍTŐIPAR.
-3. FIZIKAILAG EGYRE NEHEZEBB.
-4. „1–2 ÉV KELL.”
-5. AZ ÍGÉRET: napi 1–3 óra · 2–3 hónap
-6. *ez az, ami megfogott – nem garancia*
-7. NEM HISZEM EL BEMONDÁSRA.
-8. NYILVÁNOS KÍSÉRLET – 1. RÉSZ
-9. Kövesd a kísérletet →
-10. **ELŐBB KÉSZSÉG, AZTÁN PÉNZ.**
+1. NEM AKARTAM MÉG ÉVEKET VÁRNI.
+2. „1–2 ÉV KELL.”
+3. KEZDŐKÉNT, LÉPÉSRŐL LÉPÉSRE?
+4. *ez fogott meg – nem garancia*
+5. NEM HISZEM EL BEMONDÁSRA.
+6. NYILVÁNOS KÍSÉRLET – 1. RÉSZ
+7. Kövesd a kísérletet →
+8. **ELŐBB KÉSZSÉG, AZTÁN PÉNZ.**
 
 Stílus: a landing page színei (sötétkék `#14284b`, narancs/arany `#e39a2d`, fehér), félkövér sans-serif (pl. Inter / Montserrat), animáció legfeljebb egyszerű „pop” vagy áttűnés.
 
@@ -95,20 +91,18 @@ Stílus: a landing page színei (sötétkék `#14284b`, narancs/arany `#e39a2d`,
 
 ## 4. B-roll forrás és keresőszavak
 
-**Első választás: saját felvétel, arc nélkül.** Ez a leghitelesebb, és faceless marad. Telefonnal vehető, mindig csak kezek, lábak, tárgyak:
-- a saját kesztyűd, bakancsod, szerszámod, munkaruhád
+**Első választás: saját felvétel, arc nélkül.** Ez a leghitelesebb, és faceless marad. Telefonnal vehető, mindig csak kezek, tárgyak – olyanok, amelyekből nem derül ki a munkahely vagy más személyes részlet:
 - a saját konyhaasztalod laptoppal, füzettel
+- naptár, jegyzetek, telefon (az értesítéseket és neveket rejtsd el)
 - képernyőfelvétel a tanulásról (más tagok adatait homályosítsd)
 
 **Ha stock kell** (Pexels / Pixabay, ingyenes, angol keresőszavak):
 
 | Jelenet | Keresőszó |
 |---|---|
-| Kesztyűs kéz, szerszám | `construction worker hands gloves`, `putting down tools` |
-| Építkezés részlet | `bricklaying close up`, `construction site handheld` |
-| Bakancs | `work boots walking construction` |
-| Munkanap vége | `tired worker taking off gloves`, `end of workday construction` |
-| Autóban ülve | `man sitting in car dashboard sunset` (egyszerű autó!) |
+| Kulcsok, munkanapló letétele | `putting keys on table`, `closing notebook hands` |
+| Munkanap vége | `end of workday tired`, `coat on hanger evening` |
+| Utazás haza | `looking out bus window sunset`, `man sitting in car dashboard sunset` (egyszerű autó!) |
 | Telefon görgetés | `scrolling phone at night hands` |
 | Füzet, jegyzet | `writing notes notebook hand close up` |
 | Laptop este otthon | `laptop kitchen table evening`, `studying at home night` |
@@ -126,7 +120,7 @@ Stílus: a landing page színei (sötétkék `#14284b`, narancs/arany `#e39a2d`,
 **Hang:** férfi vagy semleges, 30–45 éves hangszín, természetes magyar kiejtéssel.
 
 **Stílus-utasítás (bemásolható az AI voice eszközbe):**
-> Nyugodt, őszinte, kissé személyes hangnem, mintha egy barátnak mesélnéd el este, miért kezdtél bele valamibe. Nem reklámhang, nem lelkes, nem motivációs. Visszafogott tempó, természetes szünetekkel. Az „Ezért csatlakoztam.” mondat előtt rövid szünet. A „De nem akarom elhinni bemondásra.” legyen határozott, de nem harcias. Az „Előbb készség, aztán pénz.” lassabban, nyugodtan.
+> Nyugodt, őszinte, kissé személyes hangnem, mintha egy barátnak mesélnéd el este, miért kezdtél bele valamibe. Nem reklámhang, nem lelkes, nem motivációs. Visszafogott tempó, természetes szünetekkel. Az „Ezért csatlakoztam.” mondat előtt rövid szünet. A „De nem akarok semmit elhinni bemondásra.” legyen határozott, de nem harcias. Az „Előbb készség, aztán pénz.” lassabban, nyugodtan.
 
 **Beállítási javaslat** (pl. ElevenLabs Multilingual v2 típusú eszközben):
 - Stability: közepes (~50%). Túl magasan robotikus, túl alacsonyan kiszámíthatatlan.
@@ -134,7 +128,7 @@ Stílus: a landing page színei (sötétkék `#14284b`, narancs/arany `#e39a2d`,
 - Sebesség: 0,95–1,0×
 - A szövegben a `/` helyére tegyél vesszőt vagy pontot, a `//` helyére sortörést. A legtöbb eszköz ebből tart szünetet.
 
-**Kiejtés-ellenőrzés:** „Zsolti” (zs-hang!), „egy-két”, „bemondásra”. Ha valamelyiket rosszul mondja ki, írd be fonetikusan vagy kötőjellel tagolva (pl. „Zsol-ti”), és generáld újra csak azt a mondatot.
+**Kiejtés-ellenőrzés:** „egy-két”, „bemondásra”, „lépésről lépésre”. Ha valamelyiket rosszul mondja ki, írd be kötőjellel tagolva, és generáld újra csak azt a mondatot.
 
 ---
 
@@ -142,48 +136,48 @@ Stílus: a landing page színei (sötétkék `#14284b`, narancs/arany `#e39a2d`,
 
 1. **„Mindenhol azt mondták, egy új szakma egy-két év. Nekem erre nem volt türelmem.”**
    *Kiemelt felirat: 1–2 ÉV? NEM VÁRTAM ENNYIT.*
-2. **„Építőipari munkásként találtam egy ígéretet, amit nem hittem el. Ezért kipróbálom.”**
+2. **„Nem akartam bemondásra elhinni, hogy kezdőként is el lehet indulni. Ezért kipróbálom.”**
    *Kiemelt felirat: NEM HITTEM EL. KIPRÓBÁLOM.*
-3. **„Ha egy-két évet kell tanulnom, mire válthatok, addig maradok a betonban. Ezt nem akartam.”**
-   *Kiemelt felirat: NEM AKARTAM MÉG 1–2 ÉVET A BETONBAN.*
+3. **„Ha éveket kell várnom, mire egyáltalán elindulok, addig minden marad a régiben. Ezt nem akartam.”**
+   *Kiemelt felirat: NEM AKARTAM, HOGY MINDEN MARADJON A RÉGIBEN.*
 
-Az alternatív hookok cseréjénél a 0:04 utáni rész változatlanul maradhat. A 2. változatnál a 0:04–0:06 „Az építőiparban dolgozom.” mondat kihagyható.
+Az alternatív hookok cseréjénél a 0:04 utáni rész változatlanul maradhat.
 
 ---
 
 ## 7. TikTok caption
 
-> Nem akartam még 1–2 évet tanulni, mielőtt egyáltalán esélyem lenne szakmát váltani. 🧱➡️💻
-> Építőiparban dolgozom, és egy ígéret miatt belevágtam: napi 1–3 óra, 2–3 hónap. Nem hiszem el bemondásra – végigcsinálom, és megmutatom, mire jutok.
+> Nem akartam még éveket várni, mielőtt egyáltalán elindulok egy új irányba. ➡️💻
+> Csatlakoztam egy online közösséghez, ahol kezdőként lehet digitális készségeket tanulni. Nem hiszem el bemondásra – végigcsinálom, és megmutatom, mire jutok.
 > Ez az 1. rész. Előbb készség, aztán pénz.
-> #szakmaváltás #pályaváltás #építőipar #digitáliskészségek #nyilvánoskísérlet
+> #szakmaváltás #pályaváltás #digitáliskészségek #nyilvánoskísérlet
 
 ## 8. Instagram Reels caption
 
 > Miért kezdtem bele? 👇
 >
-> Építőiparban dolgozom, és egyre jobban érzem, hogy ezt nem csinálhatom hosszú távon.
+> Régóta érzem, hogy a mostani munkám hosszú távon nem nekem való.
 > Mindenhol azt hallottam, hogy egy új szakmához 1–2 év tanulás kell. Ez elvette a kedvem.
 >
-> Aztán láttam egy hirdetést, ami azt állította: napi 1–3 óra tanulással 2–3 hónap alatt el lehet jutni oda, hogy elkezdj pénzt keresni.
+> Aztán találtam egy online közösséget, ahol kezdőként, lépésről lépésre lehet digitális készségeket tanulni.
 > Ez fogott meg. De nem hiszem el bemondásra.
 >
 > Úgyhogy most a munkám mellett végigcsinálom, és nyilvánosan megmutatom, mire jutok – akkor is, ha nem úgy alakul, ahogy reméltem.
 >
 > Előbb készség, aztán pénz.
-> Ha te is váltanál, kövesd a kísérletet. 🧱➡️💻
+> Ha te is váltanál, kövesd a kísérletet. ➡️💻
 >
-> #szakmaváltás #pályaváltás #építőipar #szabadúszás #digitáliskészségek #nyilvánoskísérlet #előbbkészség
+> #szakmaváltás #pályaváltás #szabadúszás #digitáliskészségek #nyilvánoskísérlet #előbbkészség
 
 ## 9. YouTube Shorts
 
 **Cím** (max. ~60 karakter):
-> Nem akartam még 1–2 évet tanulni a szakmaváltáshoz | 1. rész
+> Nem akartam még éveket várni a váltással | 1. rész
 
 **Leírás:**
-> Építőiparban dolgozom, és szakmát szeretnék váltani – de nem akartam még 1–2 évet tanulni, mire egyáltalán esélyem lenne.
-> Csatlakoztam egy online közösséghez, aminek a hirdetése azt állította: napi 1–3 óra tanulással 2–3 hónap alatt el lehet jutni oda, hogy elkezdhess pénzt keresni.
-> Ez nem garancia, és én sem tudom még, nálam működik-e. Ezért nyilvános kísérletként végigcsinálom, és megmutatom, mire jutok.
+> Szakmát szeretnék váltani – de nem akartam még éveket várni, mire egyáltalán elindulok.
+> Csatlakoztam egy online közösséghez, ahol kezdőként, lépésről lépésre lehet digitális készségeket tanulni.
+> Nem tudom még, nálam működik-e, és nincs garantált eredmény. Ezért nyilvános kísérletként végigcsinálom, és megmutatom, mire jutok.
 >
 > Előbb készség, aztán pénz.
 >
@@ -191,13 +185,13 @@ Az alternatív hookok cseréjénél a 0:04 utáni rész változatlanul maradhat.
 
 ## 10. Hashtagek (magyar közönség)
 
-`#szakmaváltás` `#pályaváltás` `#építőipar` `#szabadúszás` `#digitáliskészségek` `#nyilvánoskísérlet` `#előbbkészség` `#affiliatemarketing`
+`#szakmaváltás` `#pályaváltás` `#szabadúszás` `#digitáliskészségek` `#nyilvánoskísérlet` `#előbbkészség` `#affiliatemarketing`
 
 Platformonként 3–5 hashtag elég, ne használd mindet egyszerre. Az `#előbbkészség` legyen a saját, visszatérő sorozat-hashtag. Az `#affiliatemarketing` inkább a későbbi, tanulós részekhez való, ebbe az elsőbe nem feltétlenül kell.
 
 ## 11. Videóvégi CTA
 
-**Hangban:** „Ha te is váltanál, de nem akarsz éveket várni az első lehetőségre, kövesd a kísérletet.”
+**Hangban:** „Ha te is váltanál, de nem tudod, hol kezdd, kövesd a kísérletet.”
 **Képen:** „Kövesd a kísérletet →”, majd a zárókártya: **ELŐBB KÉSZSÉG, AZTÁN PÉNZ.**
 
 Ebben a videóban **nincs link-kérés és nincs „katt a bióban”**. A cél most a követés és a kíváncsiság. A landing page-et majd a későbbi részekben érdemes a bióba tenni.
@@ -206,16 +200,16 @@ Ebben a videóban **nincs link-kérés és nincs „katt a bióban”**. A cél 
 
 ## Megjegyzések élesítés előtt
 
-- **Ellenőrizd a hirdetés pontos szövegét.** Mivel Zsoltit név szerint említed, a videóban elhangzó „napi 1–3 óra, 2–3 hónap” megfogalmazás egyezzen azzal, amit a hirdetésében ténylegesen állít.
-- **Reklámjelölés:** ha később affiliate link kerül a videó mellé (bio, leírás), a platformokon érdemes jelölni (pl. „reklám” / „fizetett partnerség” kapcsoló). A fogyasztóvédelmi szabályok a jutalékos ajánlást is reklámnak tekinthetik.
+- **Állítások ellenőrzése:** a közösségről csak olyat mondj, amit a saját tapasztalatod vagy a közösség hivatalos leírása alátámaszt. Bevételt és időtávot ne ígérj.
+- **Reklámjelölés:** ha később affiliate link kerül a videó mellé (bio, leírás), a platformokon jelöld (pl. „reklám” / „fizetett partnerség” kapcsoló). A fogyasztóvédelmi szabályok a jutalékos ajánlást is reklámnak tekinthetik.
 - **Képernyőfelvétel a közösségből:** más tagok nevét, profilképét és üzeneteit mindig homályosítsd.
 
 ## Gyors gyártási checklist
 
 1. [ ] VO legenerálása (1. pont + 5. pont beállításai), letöltés.
-2. [ ] B-roll felvétele / letöltése a 4. pont alapján (kb. 15–17 klip, 2–4 mp-esek).
+2. [ ] B-roll felvétele / letöltése a 4. pont alapján (kb. 13–15 klip, 2–4 mp-esek).
 3. [ ] CapCutban 9:16 projekt, VO behúzása, klipek a 2. pont időzítése szerint.
-4. [ ] Auto-caption, kézi javítás (ékezetek, „Zsolti”).
+4. [ ] Auto-caption, kézi javítás (ékezetek).
 5. [ ] Kiemelt feliratok a 3b lista szerint, márkaszínekkel.
 6. [ ] Zene −20 dB, az utolsó 2 mp-ben lehalkítás.
 7. [ ] Zárókártya: ELŐBB KÉSZSÉG, AZTÁN PÉNZ.

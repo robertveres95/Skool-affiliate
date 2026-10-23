@@ -23,8 +23,15 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 - Nincs ügyfélvélemény, sikersztori, bevételi statisztika, kitalált szám.
 - Nincs garancia, nincs mesterséges sürgetés (visszaszámláló, „csak ma” stb.).
 - A „Biztosan fogok pénzt keresni?” kérdésre a válasz egyértelműen: **nem garantálható**.
-- A 7 napos próbaidőn túl **semmilyen további feltételt nem állítunk** (ár, lemondás menete stb.). A GYIK a Skool csatlakozási oldalára irányít a pontos feltételekért.
-- Az oldalon szerepel affiliate-tájékoztatás a láblécben, azonban annak elhelyezése és láthatósága felülvizsgálatra szorul. A megfelelő fogyasztói tájékoztatás kialakítása további feladat.
+- **Díj és megújulás:** a 7 napos próba után a nyilvános ajánlat szerint 33 USD + áfa/hó díjú, automatikusan megújuló tagság indul, ha a látogató a próba lejártáig nem mondja le. Az oldal ezt a próbadobozban és a GYIK-ban részletesen, az „Először ismerd meg” és a záró CTA mellett, valamint a mobilos sticky sávban röviden közli.
+- **Lemondás:** a részletes lemondási feltételeket a Skool hivatalos oldalán kell ellenőrizni; a GYIK erre irányít.
+- **Ajánlói (affiliate) tájékoztatás** – nem csak a láblécben szerepel:
+  - a fejléc „7 nap ingyen” gombja alatt diszkrét „Ajánlói link” jelzés áll;
+  - a hero, az „Először ismerd meg” és a záró CTA közelében rövid ajánlói tájékoztatás olvasható;
+  - a mobilos sticky CTA alatt rövid díj- és ajánlói közlés jelenik meg: „Ajánlói link · a próba után 33 USD + áfa/hó”;
+  - a láblécben a teljes ajánlói tájékoztatás szerepel;
+  - a főcím előtt nincs hosszú ajánlói bekezdés, az első képernyő a márkaüzenetet és a főcímet emeli ki.
+- **Üzemeltető:** a Váltópont nem üzemelteti a bemutatott Skool-közösséget; ezt a hero CTA melletti közlés, a közösségi szakasz, a GYIK és a lábléc is kimondja.
 
 ---
 
@@ -39,7 +46,7 @@ Javasolt: **Flexbox Container** alapú felépítés, oldalanként egy külső (b
 | 0 | `Header` (Theme Builder → Header, vagy oldalon belüli konténer) | `.site-header` | fehér |
 | 1 | `S1 Hero` | `#hero` | fehér |
 | 2 | `S2 Mit tanulhatsz` | `#tanulas` | világosszürke `#f4f6fa` |
-| 3 | `S3 Nem kell egyedül` | `#kozosseg` | fehér |
+| 3 | `S3 Közösség` | `#kozosseg` | fehér |
 | 4 | `S4 Tanulj fejlődj` | `#fejlodes` | világosszürke |
 | 5 | `S5 Kinek való` | `#kinek` | fehér |
 | 6 | `S6 Ismerd meg` | `#ismerd-meg` | sötétkék `#14284b` |
@@ -51,16 +58,16 @@ Tipp: a CSS ID-kat (`hero`, `tanulas`, …) állítsd be a konténer *Advanced �
 
 ### 2. Szekciók elemei (widgetek)
 
-- **Header:** Heading/Text (logó szöveg) + Button („7 nap ingyen”, kicsi, sötétkék). Belső konténer: row, space-between.
-- **S1 Hero:** Text Editor (eyebrow, nagybetűs) → Heading H1 → Text Editor (probléma-mondat, bal oldali narancs vonallal) → Text Editor (alcím) → Text Editor (félkövér: „Nem szükséges előzetes tudás…”) → belső konténer narancs kerettel (7 napos próba kiemelés: 2 Text Editor) → Button (fő CTA).
+- **Header:** Heading/Text (logó szöveg) + Button („7 nap ingyen”, kicsi, sötétkék), alatta kis, szürke „Ajánlói link” jelzés. Belső konténer: row, space-between.
+- **S1 Hero:** Text Editor (eyebrow, nagybetűs) → Heading H1 → Text Editor (probléma-mondat, bal oldali narancs vonallal) → Text Editor (alcím) → Text Editor (félkövér: „Akkor is kipróbálhatod, ha most ismerkedsz a témával.”) → belső konténer narancs kerettel (próbadoboz: „7 napos ingyenes próbaidő”, alatta a 33 USD + áfa/hó díj és az automatikus megújulás) → Text Editor (kis betűs ajánlói közlés) → Button (fő CTA).
 - **S2 Mit tanulhatsz meg?:** Heading H2 + Text Editor (intro) + belső konténer 3 kártyával. Kártyánként: Icon (vagy emoji szöveg) + Heading H3 + Text Editor. Alternatíva: **Icon Box** widget.
-- **S3 Nem kell egyedül:** Heading H2 + Text Editor + 3× **Icon Box** (ikon balra mobilon, felül desktopon).
+- **S3 Közösség:** Heading H2 + Text Editor + 3× **Icon Box** (ikon balra mobilon, felül desktopon).
 - **S4 Tanulj, fejlődj, építs:** Heading H2 + 3 kártya konténer (Heading H3 + Text Editor), felső 4 px sötétkék border.
 - **S5 Kinek való?:** Heading H2 + 2 oszlopos belső konténer. Bal: Heading H3 + **Icon List** (✓ zöld ikon). Jobb: Heading H3 + **Icon List** (✕ piros/terrakotta ikon).
-- **S6 Ismerd meg:** Heading H2 (fehér) + Text Editor + Button.
+- **S6 Ismerd meg:** Heading H2 (fehér) + Text Editor + Text Editor (kis betűs ajánlói és díjközlés) + Button.
 - **S7 GYIK:** Heading H2 + **Accordion** (vagy Elementor Pro *Toggle*) widget, 4 elemmel. Alapból minden elem zárva legyen (Accordion → „Default state: collapsed”, ha elérhető).
-- **S8 Záró CTA:** Heading H2 + Button.
-- **Footer:** 1 Text Editor (nem bevételi ígéret).
+- **S8 Záró CTA:** Heading H2 + Text Editor (kis betűs ajánlói és díjközlés) + Button.
+- **Footer:** Text Editor: nem bevételi ígéret; teljes ajánlói tájékoztatás (jutalék, és hogy a bemutatott Skool-közösséget nem a Váltópont üzemelteti); kapcsolati e-mail-link.
 - **Mobilos sticky CTA (opcionális):** lásd 5. pont.
 
 ### 3. Reszponzív beállítások
@@ -111,9 +118,9 @@ Elementorban a Button widget *Link* mezőjénél: URL beillesztése, „Open in 
 - Global Colors és Global Fonts beállítása (lásd 3. pont).
 - A 8 szekció + header/footer felépítése konténerekből (lásd 1–2. pont).
 - GYIK: Accordion/Toggle widget.
-- **Mobilos sticky CTA:** Elementor Pro-ban egy külön konténer a lap alján, *Advanced → Motion Effects → Sticky: Bottom*, csak mobilon látható (*Responsive → Hide on Desktop/Tablet*). Egyszerűbb MVP-változat: mindig látszik mobilon. (A `script.js` logikája – rejtés, amíg a hero CTA látszik – opcionális, HTML widgetbe beilleszthető.)
+- **Mobilos sticky CTA:** Elementor Pro-ban egy külön konténer a lap alján, *Advanced → Motion Effects → Sticky: Bottom*, csak mobilon látható (*Responsive → Hide on Desktop/Tablet*). A gomb alatt rövid díj- és ajánlói közlés: „Ajánlói link · a próba után 33 USD + áfa/hó”. Egyszerűbb MVP-változat: mindig látszik mobilon. (A `script.js` logikája – rejtés, amíg a hero CTA vagy a záró CTA látszik – opcionális, HTML widgetbe beilleszthető.)
 - Oldal címe és meta leírás (SEO pluginnal vagy a téma beállításaiban) – a szövegek az `index.html` `<head>` részében.
-- A 7 napos próbaidő **ellenőrzése** a Skool oldalon élesítés előtt; ha változik, az összes CTA szövegét és a hero kiemelést frissíteni kell.
+- A 7 napos próbaidő és a 33 USD + áfa/hó díj **ellenőrzése** a Skool oldalon élesítés előtt; ha változik, frissíteni kell a CTA-feliratokat, a próbadobozt, a CTA-k melletti és a sticky közlést, a GYIK-ot és a meta leírást.
 
 ### 6. Amit NEM építünk az MVP-be
 

@@ -46,7 +46,7 @@ body {
   color: var(--text);
   background: var(--bg);
   /* hely a mobilos sticky CTA-nak (sáv magassága + iOS alsó biztonsági sáv) */
-  padding-bottom: calc(100px + env(safe-area-inset-bottom));
+  padding-bottom: calc(124px + env(safe-area-inset-bottom));
 }
 
 h1, h2, h3 {
@@ -102,6 +102,21 @@ a { color: var(--navy); }
   font-weight: 800;
   color: var(--navy);
   font-size: 0.95rem;
+}
+
+/* Fejléc-gomb és alatta a diszkrét „Ajánlói link” jelzés */
+.header-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 0;
+}
+
+.header-cta small {
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  color: var(--muted);
 }
 
 /* ---------- Gombok (CTA) ---------- */
@@ -386,6 +401,15 @@ a { color: var(--navy); }
 }
 
 .sticky-cta.is-visible { transform: translateY(0); }
+
+/* Rövid ajánlói és díjközlés a sticky gomb alatt */
+.sticky-note {
+  margin: 6px 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--muted);
+}
 
 /* ==========================================================
    Tablet (≥ 640px)

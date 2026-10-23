@@ -1,0 +1,6 @@
+# GitHub Pages (Jekyll) beállítás.
+# A belső dokumentumok nem kerülnek a weboldal-buildbe.
+# Figyelem: a kizárás nem teszi őket priváttá, a nyilvános repóban továbbra is elérhetők.
+exclude:
+  - README.md
+  - videos/

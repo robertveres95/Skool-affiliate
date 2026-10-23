@@ -24,7 +24,7 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 - Nincs garancia, nincs mesterséges sürgetés (visszaszámláló, „csak ma” stb.).
 - A „Biztosan fogok pénzt keresni?” kérdésre a válasz egyértelműen: **nem garantálható**.
 - A 7 napos próbaidőn túl **semmilyen további feltételt nem állítunk** (ár, lemondás menete stb.). A GYIK a Skool csatlakozási oldalára irányít a pontos feltételekért.
-- A láblécben csak egy rövid „nem bevételi ígéret” nyilatkozat szerepel, látható affiliate közlemény nincs.
+- Az oldalon szerepel affiliate-tájékoztatás a láblécben, azonban annak elhelyezése és láthatósága felülvizsgálatra szorul. A megfelelő fogyasztói tájékoztatás kialakítása további feladat.
 
 ---
 

@@ -1,0 +1,16 @@
+# GitHub Pages (Jekyll) beállítás.
+# A belső dokumentumok nem kerülnek a weboldal-buildbe.
+# Figyelem: a kizárás nem teszi őket priváttá, a nyilvános repóban továbbra is elérhetők.
+exclude:
+  # A Jekyll 3.10 és a GitHub Pages alapértelmezett kizárásai (a saját lista felülírná őket):
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CNAME
+  # Belső dokumentumok:
+  - README.md
+  - videos/

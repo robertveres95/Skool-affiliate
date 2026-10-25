@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Előbb készség, aztán pénz – Szabadúszás és affiliate marketing kezdőknek</title>
   <meta name="description" content="Ismerd meg az online szabadúszás és az affiliate marketing világát. Ajánlói oldal. 7 napos ingyenes próba, utána lemondásig 33 USD + áfa/hó.">
+  <meta name="theme-color" content="#14284b">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <a class="skip-link" href="#tartalom">Ugrás a tartalomra</a>
+
   <!-- ============ FEJLÉC ============ -->
   <header class="site-header">
     <div class="container header-inner">
-      <span class="logo">Előbb készség, aztán pénz</span>
+      <!-- A Váltópont-logó webre kicsinyített másolata (forma, felirat, színek és arány az eredetivel azonos), kis kör alakban + jól olvasható márkanév -->
+      <span class="brand"><img class="brand-logo" src="assets/valtopont-logo-128.png" width="128" height="128" alt="" decoding="async"><span class="brand-name">Váltó<span class="brand-accent">pont</span></span></span>
       <div class="header-cta">
         <a class="btn btn-small" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">7 nap ingyen</a>
         <small>Ajánlói link</small>
@@ -20,47 +24,71 @@
     </div>
   </header>
 
-  <main>
+  <main id="tartalom">
 
     <!-- ============ 1. HERO ============ -->
-    <section class="section hero" id="hero">
-      <div class="container narrow">
-        <p class="eyebrow">Előbb készség, aztán pénz</p>
-        <h1>Eleged van abból, hogy mindig más mondja meg, mikor, hol és mennyit dolgozz?</h1>
-        <p class="problem">Ha úgy érzed, eleged van a jelenlegi munkádból, de nem tudod, merre tovább, nem vagy egyedül. Ez nem egy újabb gyors meggazdagodási ajánlat – hanem egy lehetőség, hogy új digitális készségeket tanulj, és nyugodtan megismerj új irányokat.</p>
-        <p class="lead">Ismerd meg az online szabadúszás és az affiliate marketing világát! Tanulj új készségeket, és fedezd fel, hogyan építhetsz fel idővel egy nagyobb szabadságot adó online tevékenységet.</p>
-        <p class="highlight">Akkor is kipróbálhatod, ha most ismerkedsz a témával.</p>
-
-        <div class="trial-badge">
-          <strong>7 napos ingyenes próbaidő</strong>
-          <span>Utána 33&nbsp;USD&nbsp;+&nbsp;áfa havonta, automatikus megújulással, ha a próba lejártáig nem mondod le. A tagság a közösség Skool-oldala szerint bármikor lemondható – részletek a GYIK-ban.</span>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="hero-brandline">
+            <p class="eyebrow"><span class="eyebrow-pont" aria-hidden="true"></span>Előbb készség, aztán pénz</p>
+            <!-- „Váltó” motívum: a sín egy pontban irányt vált, az új ág felfelé ível (díszítés) -->
+            <svg class="valto" viewBox="0 0 300 46" preserveAspectRatio="xMinYMid slice" aria-hidden="true" focusable="false">
+              <defs>
+                <linearGradient id="valto-sin" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="300" y2="0">
+                  <stop offset="0" stop-color="#14284b" stop-opacity="0.32"/>
+                  <stop offset="1" stop-color="#14284b" stop-opacity="0"/>
+                </linearGradient>
+                <linearGradient id="valto-ag" gradientUnits="userSpaceOnUse" x1="34" y1="23" x2="122" y2="-8">
+                  <stop offset="0" stop-color="#f28c28"/>
+                  <stop offset="1" stop-color="#f7b267" stop-opacity="0.2"/>
+                </linearGradient>
+              </defs>
+              <path class="sin" d="M0 23H300"/>
+              <path class="ag" pathLength="1" d="M34 23C54 23 64 20 77 11S103 -4 122 -8"/>
+              <circle class="pont-halo" cx="34" cy="23" r="9"/>
+              <circle class="pont" cx="34" cy="23" r="4"/>
+            </svg>
+          </div>
+          <h1>Eleged van abból, hogy mindig más mondja meg, mikor, hol és <span class="h1-accent">mennyit dolgozz?</span></h1>
+          <p class="problem">Ha úgy érzed, eleged van a jelenlegi munkádból, de nem tudod, merre tovább, nem vagy egyedül. Ez nem egy újabb gyors meggazdagodási ajánlat – hanem egy lehetőség, hogy új digitális készségeket tanulj, és nyugodtan megismerj új irányokat.</p>
+          <p class="lead">Ismerd meg az online szabadúszás és az affiliate marketing világát! Tanulj új készségeket, és fedezd fel, hogyan építhetsz fel idővel egy nagyobb szabadságot adó online tevékenységet.</p>
+          <p class="highlight">Akkor is kipróbálhatod, ha most ismerkedsz a témával.</p>
         </div>
 
-        <p class="lead"><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. A közösséget nem a Váltópont üzemelteti.</small></p>
-
-        <a class="btn btn-primary btn-block" id="hero-cta" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">Kipróbálom 7 napig ingyen</a>
+        <!-- Csatlakozási kártya: próbaidő, díj, megújulás, ajánlói közlés és a fő CTA egy helyen -->
+        <div class="join-card" role="group" aria-labelledby="join-title">
+          <p class="join-kicker" id="join-title">7 napos ingyenes próbaidő</p>
+          <p class="join-price"><strong>Utána 33&nbsp;USD&nbsp;+&nbsp;áfa havonta,</strong> automatikus megújulással, ha a próba lejártáig nem mondod le.</p>
+          <p class="join-terms">A tagság a közösség Skool-oldala szerint bármikor lemondható – részletek a <a href="#gyik">GYIK-ban</a>.</p>
+          <p class="cta-note"><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. A közösséget nem a Váltópont üzemelteti.</small></p>
+          <a class="btn btn-primary btn-block" id="hero-cta" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">Kipróbálom 7 napig ingyen</a>
+        </div>
       </div>
     </section>
 
     <!-- ============ 2. MIT TANULHATSZ MEG? ============ -->
-    <section class="section section-alt" id="tanulas">
+    <section class="section s-tanulas" id="tanulas">
       <div class="container">
-        <h2>Mit tanulhatsz meg?</h2>
-        <p class="section-intro">Ha még nem tudod, merre tovább, az első lépés a lehetőségek megismerése. A közösség a Skool-oldala szerint tananyagokat és gyakorlati módszereket kínál, amelyekre később építkezhetsz.</p>
+        <div class="section-head draw">
+          <p class="step" aria-hidden="true">01</p>
+          <h2>Mit tanulhatsz meg?</h2>
+          <p class="section-intro">Ha még nem tudod, merre tovább, az első lépés a lehetőségek megismerése. A közösség a Skool-oldala szerint tananyagokat és gyakorlati módszereket kínál, amelyekre később építkezhetsz.</p>
+        </div>
 
         <div class="cards">
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">✍️</div>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 20l1-4L16 5l3 3L8 19l-4 1zM14 7l3 3"/></svg></span>
             <h3>Szabadúszás</h3>
             <p>Hogyan ajánlhatod fel a tudásodat online, és hogyan találhatsz megbízásokat.</p>
           </article>
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">🔗</div>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1.4 1.4M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1.4-1.4"/></svg></span>
             <h3>Affiliate marketing</h3>
             <p>Hogyan működik a partnerprogramokon keresztüli ajánlás, és mire érdemes figyelni kezdőként.</p>
           </article>
-          <article class="card">
-            <div class="card-icon" aria-hidden="true">💻</div>
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h11A1.5 1.5 0 0 1 19 6.5V15H5zM3 18.5h18"/></svg></span>
             <h3>Digitális készségek</h3>
             <p>Olyan online eszközök és módszerek, amelyek a mai munkavégzésben egyre fontosabbak.</p>
           </article>
@@ -69,28 +97,31 @@
     </section>
 
     <!-- ============ 3. KÖZÖSSÉG ============ -->
-    <section class="section" id="kozosseg">
+    <section class="section s-kozosseg" id="kozosseg">
       <div class="container">
-        <h2>Közösségben tanulhatsz</h2>
-        <p class="section-intro">A bemutatott közösséget nem a Váltópont üzemelteti: a Skool platformon működik, ahol a tananyagok mellett közösségi felület is van.</p>
+        <div class="section-head draw">
+          <p class="step" aria-hidden="true">02</p>
+          <h2>Közösségben tanulhatsz</h2>
+          <p class="section-intro">A bemutatott közösséget nem a Váltópont üzemelteti: a Skool platformon működik, ahol a tananyagok mellett közösségi felület is van.</p>
+        </div>
 
         <ul class="feature-list">
-          <li>
-            <span class="feature-icon" aria-hidden="true">💬</span>
+          <li class="reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4.5A1.5 1.5 0 0 1 4 14.5z"/></svg></span>
             <div>
               <h3>Közösségi felület</h3>
               <p>A Skoolon a tagok bejegyzésekben és hozzászólásokban kérdezhetnek egymástól.</p>
             </div>
           </li>
-          <li>
-            <span class="feature-icon" aria-hidden="true">👥</span>
+          <li class="reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"/></svg></span>
             <div>
               <h3>Egy helyen</h3>
               <p>A tananyagok és a közösségi beszélgetések ugyanazon a felületen érhetők el.</p>
             </div>
           </li>
-          <li>
-            <span class="feature-icon" aria-hidden="true">🙋</span>
+          <li class="reveal">
+            <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M10.5 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zM20 20l-4.6-4.6"/></svg></span>
             <div>
               <h3>Nézd meg csatlakozás előtt</h3>
               <p>Hogy milyen csoport, élő alkalom vagy mentorálás érhető el, azt a közösség Skool-oldalán ellenőrizd.</p>
@@ -101,20 +132,23 @@
     </section>
 
     <!-- ============ 4. TANULJ, FEJLŐDJ, ÉPÍTS ============ -->
-    <section class="section section-alt" id="fejlodes">
+    <section class="section s-fejlodes" id="fejlodes">
       <div class="container">
-        <h2>Tanulj, fejlődj, építs új lehetőségeket</h2>
+        <div class="section-head draw">
+          <p class="step" aria-hidden="true">03</p>
+          <h2>Tanulj, fejlődj, építs új lehetőségeket</h2>
+        </div>
 
         <div class="cards">
-          <article class="card card-plain">
+          <article class="card card-plain reveal">
             <h3>Többféle online lehetőség</h3>
             <p>Megismerheted az online munkavégzés és pénzkeresés különböző formáit, hogy kiválaszd, mi illik hozzád.</p>
           </article>
-          <article class="card card-plain">
+          <article class="card card-plain reveal">
             <h3>Online tananyagok</h3>
             <p>A közösség tananyagai online, a Skool felületén érhetők el.</p>
           </article>
-          <article class="card card-plain">
+          <article class="card card-plain reveal">
             <h3>Gyakorlati készségek</h3>
             <p>A hangsúly azon van, amit ténylegesen ki is tudsz próbálni és alkalmazni.</p>
           </article>
@@ -123,12 +157,15 @@
     </section>
 
     <!-- ============ 5. KINEK VALÓ? ============ -->
-    <section class="section" id="kinek">
+    <section class="section s-kinek" id="kinek">
       <div class="container">
-        <h2>Kinek való?</h2>
+        <div class="section-head draw">
+          <p class="step" aria-hidden="true">04</p>
+          <h2>Kinek való?</h2>
+        </div>
 
         <div class="fit-grid">
-          <div class="fit-box fit-yes">
+          <div class="fit-box fit-yes reveal">
             <h3>Neked való, ha…</h3>
             <ul class="check-list">
               <li>eleged van a mókuskerékből</li>
@@ -137,7 +174,7 @@
               <li>új lehetőségeket keresel</li>
             </ul>
           </div>
-          <div class="fit-box fit-no">
+          <div class="fit-box fit-no reveal">
             <h3>Nem neked való, ha…</h3>
             <ul class="cross-list">
               <li>gyors meggazdagodást vársz</li>
@@ -150,19 +187,25 @@
     </section>
 
     <!-- ============ 6. ELŐSZÖR ISMERD MEG ============ -->
-    <section class="section section-dark" id="ismerd-meg">
-      <div class="container narrow center">
-        <h2>Először ismerd meg, utána dönts</h2>
-        <p>Nem kell most mindenről döntened, és nem kell azonnal felmondanod sem. A 7 napos próbaidő alatt körülnézhetsz a közösségben, és eldöntheted, hogy neked való-e ez az irány. Előbb készség, aztán pénz.</p>
-        <p><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. 7 nap ingyen, utána lemondásig 33&nbsp;USD&nbsp;+&nbsp;áfa/hó.</small></p>
-        <a class="btn btn-primary btn-block" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">Kipróbálom 7 napig ingyen</a>
+    <section class="section s-ismerd" id="ismerd-meg">
+      <div class="container">
+        <div class="panel-dark draw">
+          <svg class="panel-arc" viewBox="0 0 320 180" aria-hidden="true" focusable="false"><path d="M8 172C96 166 170 128 222 78S292 22 312 12"/></svg>
+          <p class="step step-on-dark" aria-hidden="true">05</p>
+          <h2>Először ismerd meg, utána dönts</h2>
+          <p>Nem kell most mindenről döntened, és nem kell azonnal felmondanod sem. A 7 napos próbaidő alatt körülnézhetsz a közösségben, és eldöntheted, hogy neked való-e ez az irány. Előbb készség, aztán pénz.</p>
+          <p class="cta-note"><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. 7 nap ingyen, utána lemondásig 33&nbsp;USD&nbsp;+&nbsp;áfa/hó.</small></p>
+          <a class="btn btn-primary btn-block" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">Kipróbálom 7 napig ingyen</a>
+        </div>
       </div>
     </section>
 
     <!-- ============ 7. GYIK ============ -->
-    <section class="section" id="gyik">
+    <section class="section s-gyik" id="gyik">
       <div class="container narrow">
-        <h2>Gyakori kérdések</h2>
+        <div class="section-head">
+          <h2>Gyakori kérdések</h2>
+        </div>
 
         <div class="faq">
           <details>
@@ -186,10 +229,11 @@
     </section>
 
     <!-- ============ 8. ZÁRÓ CTA ============ -->
-    <section class="section section-alt" id="zaro">
+    <section class="section s-zaro" id="zaro">
       <div class="container narrow center">
+        <svg class="zaro-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 17c5-1 9-4 13-10M12 6.5 17 6l.5 5"/></svg>
         <h2>A változás az első lépéssel kezdődik.</h2>
-        <p class="lead"><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. 7 nap ingyen, utána lemondásig 33&nbsp;USD&nbsp;+&nbsp;áfa/hó.</small></p>
+        <p class="cta-note"><small><strong>Ajánlói link:</strong> az ezen keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. 7 nap ingyen, utána lemondásig 33&nbsp;USD&nbsp;+&nbsp;áfa/hó.</small></p>
         <a class="btn btn-primary btn-block" id="final-cta" href="https://www.skool.com/szabaduszo-affiliate/about?ref=9f8501e9ce73465b9c9ea3abf13c00f2" target="_blank" rel="noopener sponsored">Megnézem a közösséget – kipróbálom</a>
       </div>
     </section>
@@ -199,6 +243,7 @@
   <!-- ============ LÁBLÉC ============ -->
   <footer class="site-footer">
     <div class="container">
+      <p class="footer-brand"><img class="footer-logo" src="assets/valtopont-logo-304.png" srcset="assets/valtopont-logo-304.png 2x, assets/valtopont-logo-456.png 3x" width="304" height="304" alt="Váltópont" loading="lazy" decoding="async"> <span class="footer-tagline">Előbb készség, aztán pénz.</span></p>
       <p>Az oldalon szereplő információk nem jelentenek bevételi ígéretet. Az eredmények egyénenként eltérnek.</p>
       <p class="footer-disclosure"><strong>Ajánlói tájékoztatás:</strong> A Skool-linkeken keresztül történő csatlakozás után a Váltópont oldal üzemeltetője jutalékot kaphat. A bemutatott Skool-közösséget nem a Váltópont üzemelteti.</p>
       <p class="footer-links"><a href="mailto:valtopont.kapcsolat@gmail.com">Kapcsolat: valtopont.kapcsolat@gmail.com</a><span data-consent-settings-slot></span></p>
@@ -211,6 +256,6 @@
     <p class="sticky-note">Ajánlói link · a próba után 33&nbsp;USD&nbsp;+&nbsp;áfa/hó</p>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

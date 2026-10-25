@@ -14,9 +14,14 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 .
 ├── index.html   # az oldal teljes tartalma, 8 szekció + fejléc/lábléc
 ├── style.css    # mobil-first stílusok, színek CSS változókban (:root)
-├── script.js    # egyetlen funkció: mobilos sticky CTA mutatása/elrejtése
+├── script.js    # két funkció: görgetéskor beúszó kártyák és a mobilos sticky CTA mutatása/elrejtése
+├── assets/      # a Váltópont-logó webre kicsinyített, veszteségmentes PNG-másolatai (128, 304, 456 px)
 └── README.md
 ```
+
+A Váltópont 2.0 megjelenés tudnivalói:
+- A logófájlok az eredeti, jóváhagyott logóból készült arányos kicsinyítések; forma, felirat és színek változatlanok. Az eredeti, nagy felbontású fájl nem része a repónak.
+- A beúszás egyszeri és visszafogott; JavaScript nélkül, szkripthiba esetén és csökkentett mozgást kérő beállításnál minden tartalom animáció nélkül látható.
 
 ## Kommunikációs alapelvek (tartalmi szabályok)
 
@@ -36,6 +41,8 @@ Megtekintés: nyisd meg az `index.html`-t böngészőben (vagy kapcsold be a Git
 ---
 
 ## Megvalósítás WordPress + Elementor Pro alatt
+
+> Ez az útmutató az első (v1) dizájn szerkezetét és színeit írja le. A Váltópont 2.0 színei, méretei és animációi a `style.css` `:root` változóiban, illetve a `script.js`-ben vannak; Elementorban ezek közelítésével lehet dolgozni.
 
 ### 1. Elementor szekciók / konténerek
 
@@ -132,6 +139,6 @@ Elementorban a Button widget *Link* mezőjénél: URL beillesztése, „Open in 
 - fizetési rendszer
 - analitika, követőkódok, pixelek
 - cookie banner / cookie kezelő rendszer (ha később analitika kerül be, akkor válik szükségessé)
-- komplex animációk, parallax, belépő effektek
+- komplex animációk, parallax (kivétel a Váltópont 2.0 egyszeri, visszafogott kártyabeúszása – lásd a fájlstruktúra alatti tudnivalókat)
 - A/B tesztelés
 - ügyfélvélemények, sikersztorik, bevételi számok, visszaszámlálók – amíg nincs valós, ellenőrizhető forrás

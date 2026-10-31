@@ -998,3 +998,7 @@ html.reveal-ready .fenyut.reveal:not(.is-visible), html.reveal-ready .zaro-szint
   .ajanlat .cta-note { margin-top: 8px; line-height: 1.36; }
   .ajanlat-lab { margin-top: 10px; }
 }
+
+/* v1.5.2: a hosszabb fejléc-CTA („Megnézem a közösséget”) keskeny kijelzőn két sorba törik –
+   középre igazítva, kiegyensúlyozott sorokkal és szűkebb sorközzel, hogy a gomb magassága ne nőjön */
+.gomb-kicsi { text-align: center; line-height: 1.2; text-wrap: balance; }
